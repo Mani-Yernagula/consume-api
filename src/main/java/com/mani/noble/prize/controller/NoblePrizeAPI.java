@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
-import com.mani.noble.prize.api.pojo.NobelPrize;
-import com.mani.noble.prize.api.pojo.NoblePrizes;
+import com.mani.noble.prize.pojo.NobelPrize;
+import com.mani.noble.prize.pojo.NoblePrizes;
 
 @RestController
 @RequestMapping("/prizes")
